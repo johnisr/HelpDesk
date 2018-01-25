@@ -26,6 +26,13 @@ HDmodel.php - The server model, does input validation and applies business logic
 
 HDdao.php - HDmodel's database access object, encapsulates all SQL code used by the model to interact with the database.
 
+How to use:
+
+1) Download a web server stack such as XAMPP.
+2) Create the "HelpDesk" folder in the htdocs folder (where the web server stores web files)
+3) Paste the contents of all files and folders except "setup", "tests", and "attack"
+4) In the setup folder, import the sql settings found in help_desk.sql
+
 Changes:
 
 Protection against SQL inference attacks by using try catch to catch all errors and log them (prevent users from seeing errors)
