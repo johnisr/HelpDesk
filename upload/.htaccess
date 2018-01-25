@@ -1,0 +1,5 @@
+SSLRequireSSL
+AuthName "Member's Area Name"
+AuthUserFile /xampp/htdocs/HelpDesk/.htpasswd
+AuthType Basic
+require valid-user
